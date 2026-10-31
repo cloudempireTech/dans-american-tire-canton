@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4B4B"/>
+      <stop offset="100%" stop-color="#D90429"/>
+    </linearGradient>
+    <radialGradient id="darkBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#162035"/>
+      <stop offset="100%" stop-color="#0a0f1d"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#darkBg)"/>
+  
+  <!-- Outer Tire Tread Ring -->
+  <circle cx="256" cy="256" r="215" fill="none" stroke="#334155" stroke-width="26" stroke-dasharray="16 10"/>
+  <circle cx="256" cy="256" r="190" fill="none" stroke="url(#redGrad)" stroke-width="8"/>
+  
+  <!-- Rim / Alloy Spoke Core -->
+  <circle cx="256" cy="256" r="140" fill="#0f172a" stroke="#ffffff" stroke-width="6"/>
+  <circle cx="256" cy="256" r="48" fill="url(#redGrad)"/>
+  
+  <!-- Stylized D Star Hub -->
+  <polygon points="256,120 274,175 332,175 285,208 303,264 256,230 209,264 227,208 180,175 238,175" fill="#FFB703"/>
+  <text x="256" y="380" font-family="'Outfit', sans-serif" font-size="70" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">DAN'S</text>
+</svg>
